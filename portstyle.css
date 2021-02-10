@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width:900px;
+    height:1000px;
+    margin-left: 50px;
+    background: radial-gradient(circle, rgba(59,75,163,1) 0%, rgba(16,20,47,1) 100%);
+}
+
+.header{
+    background-color: lightcyan;
+    width: auto;
+    height: 50px;
+    padding:10px 0px 0px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title{
+    display: inline-block;
+    font-family: "Arial" , sans-serif;
+    color: silver;
+}
+
+#h1title{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#h2title{
+    margin-left: 290px;
+    font-family: "Times New Roman", sans-serif;
+}
+
+#profilepic{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+#profpho{
+    width: 375px;
+    display:inline-block;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#About{
+    height:257px;
+    width: 450px;
+    margin: 10px;
+    display: inline-block;
+    background: linear-gradient(0deg, rgba(186,254,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.text{
+    padding:0px 2px 5px 10px;
+    font-size: 15px;
+    font-family: Arial;
+    height: 175px;
+}
+
+.descrippic{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.Content{
+    height: 600px;
+    width: 270px;
+    background:linear-gradient(0deg, rgba(186,254,255,1) 0%, rgba(255,255,255,1) 100%);
+    display:inline-block;
+    align-content: center;
+    vertical-align: top;
+    margin: 12px;
+}
+
+.technologies{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(76,76,161,1) 48%, rgba(0,0,0,1) 100%);
+    height:30px; 
+    color:white;
+    display: absolute;
+    padding: 10px 0px 0px 5px;
+    }
+
+#boxheader2{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(76,76,161,1) 48%, rgba(0,0,0,1) 100%);
+    height:30px; 
+    color:white;
+    padding: 10px 0px 0px 5px;
+}
+
+
+.icon{
+    width:15%;
+    margin: 5px;
+}
+
+.button{
+    color:white;
+    background-color:green;
+    border-radius: 30px;
+    padding: 5px 5px;
+    font-size:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    height:75px;
+    width: auto;
+    text-align: center;
+    background-color: lightcyan;
+    padding:10px 0px 2px 0px;
+}
+
+.icon2{
+    height: 15px;
+    display:inline-block;
+}
+
+.plink{
+    margin-left: 5px;
+    margin-right: 2px;
+    color: black;
+    display:inline-block;
+    font-style: italic;
+}
